@@ -11,13 +11,13 @@ class Counter extends React.Component {
 
     onInc = () => {
         this.setState({
-          value: this.state.value + 1
+            value: this.state.value + 1
         });
     };
 
     onDec = () => {
         this.setState({
-          value: this.state.value - 1
+            value: this.state.value - 1
         });
     };
 
